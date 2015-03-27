@@ -1,0 +1,34 @@
+{
+  "name": "Ventus-Bower",
+  "version": "0.2",
+  "authors": [
+    "Ramón Lamana <rlamana@gmail.com>"
+  ],
+  "description": "A window manager written in Javascript, HTML5 and CSS3",
+  "main": "dist/ventus.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "window",
+    "manager"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.rlamana.es/ventus/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "jquery": "~2.1.3",
+    "modernizr": "~2.8.3"
+  },
+  "devDependencies": {
+    "require": "*",
+    "handlebars": "~3.0.0"
+  }
+}
